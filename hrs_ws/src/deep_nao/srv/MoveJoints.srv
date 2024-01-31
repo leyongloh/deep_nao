@@ -1,0 +1,11 @@
+#CREATE request parameters
+string[] end_effector
+int64 frames
+geometry_msgs/Pose pose
+float64 fraction_max_velocity
+float64[] execution_time
+bool position_only
+---
+#CREATE response parameters
+# bool sucesss
+float64[] cartesian_position

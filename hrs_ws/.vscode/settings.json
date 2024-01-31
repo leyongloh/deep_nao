@@ -1,0 +1,14 @@
+{
+    "python.analysis.extraPaths": [
+        "/opt/ros/kinetic/lib/python/dist-packages/"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none",
+    "python.autoComplete.extraPaths": [
+        "/workspaces/hrs_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages",
+        "/pynaoqi"
+    ]
+}

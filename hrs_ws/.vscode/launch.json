@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PATH": "${env:PATH}",
+                "PKG_CONFIG_PATH": "${env:PKG_CONFIG_PATH}",
+                "LD_LIBRARY_PATH": "${env:LD_LIBRARY_PATH}",
+                "PYTHONPATH": "/workspaces/hrs:/opt/ros/kinetic/lib/python/dist-packages:/workspaces/hrs_ws/devel/lib/python/dist-packages:${env:PYTHONPATH}",
+                "CMAKE_PREFIX_PATH": "${env:CMAKE_PREFIX_PATH}",
+            },
+        }
+    ]
+}
