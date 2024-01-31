@@ -1,3 +1,6 @@
 [submodule "dm_control_clone"]
 	path = dm_control_clone
 	url = https://github.com/leyongloh/dm_control_clone.git
+[submodule "acme_clone"]
+	path = acme_clone
+	url = https://github.com/leyongloh/acme_clone.git
