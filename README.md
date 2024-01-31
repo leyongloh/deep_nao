@@ -8,3 +8,6 @@ As the installation is quite tedious because of a lots of compatability issues, 
 # Scripts
 this contains the python scripts for training (aceme_pipeline.py), conversion of mjcf class to xml (convert_mjcf_to_xml.py) and visualizing the environment (nao_robot.py).
 
+# hrs_ws
+this folder is the hrs workspace and contain the classical Nao robot control, since the devcontainer uses python2, I would recommend to run the dm_control and acme in a seperate python environment with python 3.9.7 to avoid conflicts.
+
